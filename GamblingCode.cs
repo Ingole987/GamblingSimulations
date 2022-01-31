@@ -8,10 +8,12 @@ namespace GamblingSimulations
 {
     public class GamblingCode
     {
+        //UC1
         int betWon, betLost;
-        int maxMoney = 100;
-        int moneySpend = 1;
+        int maxMoney = 100;//not constant
+        int moneySpend = 1;//constant
         Random random = new Random();
+        //UC2
         public void GameWon()
         {
             if (betWon == 1)
